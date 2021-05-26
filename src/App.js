@@ -1,25 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
+import ChessDesk from "./components/ChessDesk/ChessDesk";
+import Form from "./components/Form/Form";
+import Timer from "./components/Timer/Timer";
+import Chart from "./components/Chart/Chart";
+import Image from "./components/Image/Image";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="Page">
+            <div>
+                <h3 className="header row d-flex justify-content-center mr-auto">
+                    This site was created by
+                    <a className="link" target="_blank" href="https://github.com/BolotnyaBoss">
+                         _Svyatoslav Likhtarchyk
+                    </a>
+                </h3>
+            </div>
+            <div className="flex-div ">
+                <ChessDesk className="w-100 "/>
+            </div>
+            <div className="d-flex justify-content-center mr-auto">
+                <Timer className="col-3 "/>
+            </div>
+            <div className="d-flex justify-content-center">
+                <Form className=""/>
+            </div>
+            <div className="flex-div">
+                <Image className = "col-3 "/>
+            </div>
+            <div>
+                <Chart className = " row w-25 h-25 mr-5"/>
+            </div>
+            <div >
+                <p className="header row d-flex justify-content-center mr-auto">
+                    <a href="https://t.me/bolotnya" target="_blank">
+                        © Bolotnya Boss_
+                    </a>
+                    2021
+                </p>
+            </div>
+
+        </div>
+    );
 }
 
 export default App;

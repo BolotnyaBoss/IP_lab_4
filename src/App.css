@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+.Page{
+  background-color: #85dede;
+}
+.header{
+  text-align: center;
+  background: #3e7e7e;
+  color: ghostwhite;
+  font-family:Consolas;
+}

@@ -1,0 +1,41 @@
+*{
+    font-family:Consolas;
+}
+form {
+    text-align: center;
+    background: #85dede;
+    overflow: auto;
+    align-content: center;
+}
+button{
+    background: #44b9bf;
+}
+.button_1{
+    background: #44b9bf;
+}
+.button_1:hover{
+    cursor: pointer;
+    background: #3e7e7e;
+}
+button:hover,input.button:hover
+{
+    cursor: pointer;
+    background: #3e7e7e;
+}
+input.button{
+    background: #44b9bf;
+}
+input{
+    position: relative;
+    width: max-content;
+}
+.toppings label, .cheesy label {
+    margin-right: 25px;
+}
+body{
+    background: #85dede;
+}
+a{
+    text-decoration: none;
+    color: #151560;
+}
